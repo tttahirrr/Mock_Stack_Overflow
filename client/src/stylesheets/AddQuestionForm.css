@@ -1,0 +1,60 @@
+.ask-question-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding-right: 70px;
+    padding-left: 70px;
+ }
+ .ask-question-form div {
+    margin-bottom: 15px;
+ }
+ .ask-question-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ .ask-question-form input[type="text"], .ask-question-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ .ask-question-form textarea {
+    min-height: 100px;
+ }
+ .ask-question-form button[type="submit"], .ask-question-form button[type="button"] {
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+ }
+ .ask-question-form button[type="submit"] {
+    background-color: royalblue;
+ }
+ .ask-question-form button[type="button"] {
+    background-color: lightslategray;
+ }
+ .ask-question-form button[type="submit"]:hover {
+    background-color:  #0059b8;
+ }
+ .ask-question-form button[type="button"]:hover {
+    background-color: gray;
+ }
+ .error-message {
+    color: red;
+    margin-top: 5px;
+ }
+ .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .buttons-container {
+    display: flex;
+    gap: 10px;
+ }
+ .mandatory-note {
+    color: red;
+ }
+ 

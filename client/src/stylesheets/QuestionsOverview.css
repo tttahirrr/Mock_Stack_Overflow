@@ -1,0 +1,62 @@
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dashed black;
+ }
+  .question-stats {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+  .question-content {
+    flex: 0 0 75%;
+    flex-grow: 1;
+    padding: 0 20px;
+ }
+  .question-title {
+    color: blue;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+ }
+  .question-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+ }
+  .question-tag {
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+ }
+ 
+  
+ .question-meta {
+    flex-basis: 20%;
+    text-align: right;
+ }
+ 
+ 
+ .user-name {
+    color: red;
+ }
+
+ .pagination-buttons {
+   position: fixed; 
+   bottom: 0; 
+   width: 100%; 
+   padding-left: 0.9%;
+   padding-bottom: 0.65%;
+}
+
+
+
+
+
+
+
+ 

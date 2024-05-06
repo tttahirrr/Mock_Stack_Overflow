@@ -1,0 +1,161 @@
+#asked-by {
+    color: red;
+ }
+ #answer-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+ }
+ #question-info{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .question-meta span{
+    display: block;
+    text-align: left;
+ }
+ #answers-count {
+    margin-right: 20px;
+ }
+ .answer-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed black;
+ }
+ .meta-section {
+    width: 236px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+ }
+ #question-views{
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+  #question-text {
+    width: 600px;
+    text-align: left;
+    margin: 0 20px;
+ }
+  .answered-by {
+    color: green;
+    margin-bottom: 4px; /* Space between username and date */
+ }
+ .answer-text {
+    max-width: 850px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 40px;
+ }
+ #ask-question-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+ }
+
+ #answer-button {
+   margin-left: 75.6%;
+   margin-bottom: 7px;
+
+   padding: 4px;
+   background-color: royalblue;
+   color: white;
+   cursor: pointer;
+   position: fixed; 
+   bottom: 0;
+}
+
+
+
+ #answer-button:hover, #ask-question-button:hover {
+    background-color: #0059b8;
+ }
+ 
+ .selected-question-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   padding: 10px;
+   border-bottom: 2px dashed black;
+}
+ .selected-question-tag {
+   background-color: gray;
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-size: 0.9em;
+}
+
+.question-comment-section{
+   
+   background-color: aliceblue;
+   padding: 30px;
+   border-bottom: 2px solid black;
+}
+
+.comment-container {
+   display: flex;
+   margin: 20px;
+}
+
+.commented-by{
+   color: green;
+   margin-bottom: 4px;
+}
+
+.comment-votes{
+   flex: 0 0 10%;
+}
+.comment-text{
+   flex: 0 0 65%;
+}
+.comment-meta{
+   flex: 0 0 25%;
+}
+
+.add-comment-button{
+   background-color: royalblue;
+   color: white;
+   cursor: pointer;
+}
+
+.add-comment-button:hover{
+   background-color: #0059b8;
+}
+
+.upvote-button{
+   background-color: coral;
+   color: black;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.upvote-button:hover{
+   background-color:darkorange;
+}
+
+.downvote-button{
+   background-color: lightskyblue;
+   color: black;
+   cursor: pointer;
+   margin: 5px;
+}
+
+.downvote-button:hover{
+   background-color:lightblue;
+}
+
+.content-section{
+   display: flex;
+}
+

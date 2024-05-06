@@ -1,0 +1,36 @@
+.sidebar {
+    flex-basis: 15%;
+    padding: 0;
+    border-right: 2px dashed black;
+ }
+  
+  
+ .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+  
+  
+ .menu-item {
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+ }
+  
+  
+ .menu-item:hover {
+    background-color: #e0e0e0;
+ }
+  
+  
+ .active-tab {
+    background-color: lightgray;
+    color: darkblue;
+    font-weight: bold;
+ }
+ 

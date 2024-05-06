@@ -1,0 +1,23 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: lightgray;
+   border-bottom: black solid 2px;
+}
+.header h1 {
+   margin: 0 auto;
+}
+
+.log-out-button {
+   margin-top: 1px;
+   background-color: rgb(86, 80, 72);
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.log-out-button:hover {
+   background-color: rgb(128, 119, 83);
+}

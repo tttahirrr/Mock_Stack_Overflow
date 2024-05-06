@@ -1,0 +1,47 @@
+.new-answer-form {
+    display: flex;
+    flex-direction: column;
+     margin: 20px auto;
+    padding-right: 70px;
+    padding-left: 70px;
+ }
+ .new-answer-form div {
+    margin-bottom: 15px;
+ }
+ .new-answer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+ .new-answer-form input[type="text"], .new-answer-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ .new-answer-form textarea {
+    min-height: 100px;
+ }
+ #post-button{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+ }
+ #post-button:hover {
+    background-color: #0059b8;
+ }
+ .error-message {
+    color: red;
+    margin-top: 5px;
+ }
+ #post-answer-footer {
+    display: flex;
+    justify-content: space-between;
+ }
+ .mandatory-note {
+    color: red;
+ }
+ 

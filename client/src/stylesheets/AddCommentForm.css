@@ -1,0 +1,16 @@
+.submit-comment-btn, .cancel-btn {
+    background-color: royalblue;
+    cursor: pointer;
+    color: white;
+}
+
+.submit-comment-btn:hover, .cancel-btn:hover{
+    background-color: #0059b8;;
+}
+
+.comment-drop-down{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
